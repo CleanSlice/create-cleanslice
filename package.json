@@ -1,0 +1,26 @@
+{
+  "name": "create-cleanslice",
+  "version": "0.1.1",
+  "description": "Scaffold a new CleanSlice full-stack project",
+  "type": "module",
+  "bin": {
+    "create-cleanslice": "./bin/create.mjs"
+  },
+  "files": [
+    "bin",
+    "README.md"
+  ],
+  "keywords": [
+    "cleanslice",
+    "nestjs",
+    "nuxt",
+    "starter",
+    "scaffold",
+    "create"
+  ],
+  "author": "CleanSlice",
+  "license": "MIT",
+  "dependencies": {
+    "giget": "^2.0.0"
+  }
+}
