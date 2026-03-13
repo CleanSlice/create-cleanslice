@@ -1,7 +1,7 @@
 {
   "name": "create-cleanslice",
-  "version": "0.1.1",
-  "description": "Scaffold a new CleanSlice full-stack project",
+  "version": "0.2.0",
+  "description": "Scaffold a new full-stack project with CleanSlice architecture (NestJS + Nuxt 3)",
   "type": "module",
   "bin": {
     "create-cleanslice": "./bin/create.mjs"
@@ -12,14 +12,32 @@
   ],
   "keywords": [
     "cleanslice",
+    "clean-architecture",
+    "vertical-slices",
     "nestjs",
     "nuxt",
+    "nuxt3",
+    "vue",
+    "prisma",
+    "fullstack",
     "starter",
     "scaffold",
-    "create"
+    "create",
+    "boilerplate"
   ],
-  "author": "CleanSlice",
+  "author": "CleanSlice <hello@cleanslice.org> (https://cleanslice.org)",
   "license": "MIT",
+  "homepage": "https://cleanslice.org",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CleanSlice/create-cleanslice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CleanSlice/create-cleanslice/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "giget": "^2.0.0"
   }
