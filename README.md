@@ -11,7 +11,7 @@ cd my-app
 
 This creates a project with:
 
-- **api/** — NestJS backend with Prisma, Swagger, and vertical slices
+- **api/** — NestJS backend with Prisma, Swagger, and vertical slices, including the `setup/id` slice: every primary key is `<prefix>-<adjective>-<noun>-<12 Crockford>`, minted by the gateway with `formatId(prefix)` (see [Identifiers](https://cleanslice.org/standards/identifiers))
 - **app/** — Nuxt 3 frontend with Vue 3, Pinia, Tailwind CSS, and shadcn-vue
 
 ## Next Steps
