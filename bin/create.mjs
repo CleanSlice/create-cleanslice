@@ -30,8 +30,8 @@ try {
 
   console.log(`Done! Next steps:\n`);
   console.log(`  cd ${target}`);
-  console.log(`  cd api && npm install && npm run dev`);
-  console.log(`  cd app && npm install && npm run dev\n`);
+  console.log(`  cd api && cp .env.example .env.dev && bun install && bun run dev`);
+  console.log(`  cd app && bun install && bun run dev\n`);
 } catch (err) {
   if (err.message?.includes('already exists')) {
     console.error(`Error: Directory "${target}" already exists.\n`);
